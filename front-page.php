@@ -2,7 +2,11 @@
 get_header(); 
 ?>
 
-
+<?php 
+  if(have_posts()):
+    the_content();
+    endif;
+?>
 <!----------------------------Main Header Section Code Ends Here-------------------------->
 
 <section class="banner">
