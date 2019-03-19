@@ -32,7 +32,5 @@
 </footer>
 
 <!----------------------------Footer Section Code Ends Here-------------------------->
-
-<!--modal-->  
 </body>
 </html>
