@@ -1,0 +1,1076 @@
+/* this is my custom CSS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+* {
+	margin: 0;
+	padding: 0;
+	outline: none !important;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+html, body, div, span, object, iframe, h1, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	font-family: 'Open Sans', sans-serif;
+}
+h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 150%;
+	vertical-align: baseline;
+	background: transparent;
+	font-family: 'Open Sans', sans-serif;
+}
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+body, html {
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, center {
+	display: block;
+}
+nav ul, ul {
+	list-style-type: none;
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+/* change colours to suit your needs */
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+/* change colours to suit your needs */
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+del {
+	text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+input, select, textarea, button {
+	vertical-align: middle;
+}
+.no-padding-left {
+	padding-left: 0 !important;
+}
+.no-padding-right {
+	padding-right: 0 !important;
+}
+.no-padding {
+	padding: 0 !important;
+}
+.no-margin {
+	margin: 0 !important;
+}
+.no-radius {
+	border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	-ms-border-radius: 0 !important;
+	-o-border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	-khtml-border-radius: 0 !important;
+}
+.no-border {
+	border: none !important;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 6;
+	font-size: 30px;
+}
+/***************************Default CSS Ends Here*************************/
+.top-row {
+	position: relative;
+	display: block;
+	background: #e31b1b;
+	color: #FFF;
+}
+.top-row ul li {
+	display: inline-block;
+	padding: 7px 0;
+	font-size: 12px;
+}
+.top-row ul li a {
+	display: block;
+	width: 25px;
+	text-align: center;
+	font-size: 11px;
+	line-height: 25px;
+	height: 25px;
+	color: #FFF;
+	border: 1px solid #FFF;
+	border-radius: 50%;
+}
+.top-row ul li a:hover, .top-row ul li a:active, .top-row ul li a:focus {
+	color: #fa9401;
+	border-color: #fa9401;
+}
+.top-row .btn {
+	float: right;
+	background: #fa9401;
+	border: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 9px 20px;
+	color: #FFF;
+}
+.top-row .btn:hover, .top-row .btn:active, .top-row .btn:focus {
+	background: #e88c06;
+}
+.mid-row {
+	position: relative;
+	display: block;
+	padding: 30px 0;
+}
+.mid-row .c-info {
+	position: relative;
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: 15px;
+}
+.mid-row .c-info i {
+	float: left;
+	margin-right: 15px;
+	width: 65px;
+	height: 65px;
+	display: block;
+	border: 2px solid #fa9401;
+	text-align: center;
+	line-height: 65px;
+	color: #fa9401;
+	font-size: 25px;
+}
+.mid-row .c-info span {
+	display: block;
+	overflow: hidden;
+}
+.mid-row .c-info span strong {
+	font-size: 17px;
+	padding: 13px 0 5px 0;
+	text-transform: uppercase;
+	color: #e31b1b;
+	display: block;
+}
+.mid-row .c-info span a {
+	color: #333;
+	font-size: 15px;
+}
+.navbar.menu {
+	background: #fa9401;
+	padding: 0;
+}
+.navbar-expand-lg.menu .navbar-nav .nav-link {
+	color: #FFF;
+	font-size: 16px;
+	padding: 18px 20px;
+	margin: 0;
+}
+.navbar-light.menu .navbar-nav .active .nav-link, .navbar-light.menu .navbar-nav .active.nav-link {
+	background: #e31b1b;
+}
+.navbar-light.menu form input {
+	border-radius: 0;
+	padding: 25px 20px;
+	border: none;
+	margin: 0;
+	float: right;
+	display: none;
+}
+.navbar-light.menu form button {
+	background: #e31b1b;
+	color: #FFF;
+	margin: 0;
+	padding: 12px;
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-left: -7px;
+}
+.menu-sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	border-bottom: 1px solid #FFF;
+}
+/******************Main Header Section CSS Ends Here**********************/
+.banner {
+	position: relative;
+	display: block;
+	padding: 100px 0;
+	background: #f0f1f3;
+	min-height: 580px;
+	overflow: hidden;
+}
+.banner .container {
+	position: relative;
+}
+.banner h1 {
+	display: block;
+	font-size: 43px;
+	font-weight: 800;
+	color: #333;
+}
+.banner h1 span {
+	color: #e31b1b;
+}
+.banner p {
+	display: block;
+	padding: 30px 0;
+	font-size: 18px;
+	line-height: 35px;
+	color: #454545;
+}
+.banner a.btn {
+	background: #fa9401;
+	color: #FFF;
+	padding: 10px 30px;
+	font-size: 16px;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+.banner a.btn:hover, .banner a.btn:active, .banner a.btn:focus {
+	background: #e88c06;
+}
+.banner img {
+	position: absolute;
+	right: -50px;
+	top: -65px;
+}
+/*********************Main Banner Section CSS Ends Here**************************/
+.common-heading {
+	position: relative;
+	display: block;
+	text-align: center;
+	padding: 70px 0 40px 0;
+}
+.common-heading h2 {
+	font-size: 28px;
+	color: #333;
+	font-weight: 800;
+}
+.common-heading h2 span {
+	color: #fa9401;
+}
+.common-heading p {
+	display: block;
+	padding: 10px 0;
+	font-size: 15px;
+	color: #454545;
+	line-height: 20px;
+}
+.common-heading em {
+	height: 3px;
+	display: block;
+	width: 100px;
+	background: #dddddd;
+	margin: 15px auto 0 auto;
+	position: relative;
+	text-align: center;
+}
+.common-heading em i {
+	height: 3px;
+	width: 35px;
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	background: #e31b1b;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+.our-services {
+	position: relative;
+	display: block;
+}
+.our-services .service-box {
+	position: relative;
+	display: block;
+	margin-top: 30px;
+}
+.our-services .service-box i {
+	display: block;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	color: #FFF;
+	background: #e31b1b;
+	font-size: 23px;
+	float: left;
+	margin-right: 20px;
+}
+.our-services .service-box span {
+	display: block;
+	overflow: hidden;
+}
+.our-services .service-box span h3 {
+	display: block;
+	font-size: 16px;
+	font-weight: 800;
+	color: #333;
+}
+.our-services .service-box span p {
+	display: block;
+	font-size: 13px;
+	color: #333;
+	padding: 10px 0;
+	line-height: 18px;
+}
+.our-services .service-box:hover i {
+	background: #fa9401;
+}
+.our-services .service-box:hover h3 {
+	color: #fa9401;
+}
+/***********************Our Services Section CSS Ends Here************************/
+.fun-facts {
+	position: relative;
+	display: block;
+	background: url(../images/fun-facts-bg.png) no-repeat center top;
+	width: 100%;
+	min-height: 470px;
+	background-size: cover;
+	margin-top: 70px;
+	text-align: center;
+}
+.fun-facts .common-heading h2 {
+	color: #FFF;
+}
+.fun-facts .common-heading h2 span {
+	color: #e31b1b;
+}
+.fun-facts .common-heading p {
+	color: #FFF;
+}
+.fun-facts .common-heading em {
+	background: #FFF;
+}
+.fun-facts i {
+	display: block;
+	color: #e31b1b;
+	margin-top: 30px;
+	font-size: 55px;
+	height: 55px;
+}
+.fun-facts h3 {
+	font-size: 22px;
+	color: #FFF;
+	display: block;
+	padding: 15px 0;
+}
+.fun-facts strong {
+	font-size: 35px;
+	color: #FFF;
+	font-weight: 800;
+	display: block;
+}
+/*********************Fun Facts Section CSS Ends Here************************/
+.our-pricing {
+	position: relative;
+	display: block;
+}
+.pricing-table {
+	position: relative;
+	display: block;
+	background: #f5f5f5;
+	text-align: center;
+	color: #333;
+	padding-bottom: 1px;
+	border: 2px solid #f5f5f5;
+}
+.pricing-table.best {
+	border: 2px solid #e31b1b;
+}
+.pricing-table.best img {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.pricing-table h2 {
+	display: block;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 28px;
+	padding: 20px;
+}
+.pricing-table h3 {
+	display: block;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 37px;
+	padding: 20px;
+	color: #FFF;
+	background: #fa9401;
+}
+.pricing-table p {
+	display: block;
+	padding: 17px;
+	border-bottom: 1px solid #CCC;
+	font-size: 14px;
+}
+.pricing-table a.btn {
+	display: block;
+	padding: 8px 20px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 19px;
+	background: #e31b1b;
+	margin: 25px;
+}
+.pricing-table a.btn:hover, .pricing-table a.btn:active, .pricing-table a.btn:focus {
+	background: #c91515;
+}
+/*********************Our Pricing Section CSS Ends Here************************/
+.testimonials {
+	position: relative;
+	display: block;
+	margin-top: 30px;
+	text-align: center;
+}
+.testimonials .carousel-item {
+	background: #fa9401;
+	padding: 45px 75px;
+	color: #FFF;
+}
+.testimonials .carousel-item img {
+	display: block;
+	margin: 0 auto 20px auto;
+}
+.testimonials .carousel-item p {
+	font-size: 14px;
+	font-style: italic;
+	line-height: 20px;
+	display: block;
+	padding-top: 15px;
+}
+.testimonials .carousel-item small {
+	display: block;
+	padding-top: 5px;
+}
+.carousel-control-next, .carousel-control-prev {
+	background: #e31b1b;
+	height: 40px;
+	width: 40px;
+	top: 47%;
+	font-size: 20px;
+	opacity: 1;
+}
+.carousel-control-next {
+	right: -20px;
+}
+.carousel-control-prev {
+	left: -20px;
+}
+/***********************Client Testimonials Section CSS Ends Here*****************************/
+.newsletter {
+	position: relative;
+	display: block;
+	padding: 35px 0;
+	background: #e31b1b;
+	margin-top: 70px;
+	color: #FFF;
+}
+.newsletter h3 {
+	font-size: 18px;
+	font-weight: 800;
+	margin-top: 15px;
+}
+.newsletter input {
+	height: 50px;
+	border: none;
+	padding: 20px;
+	margin: 0;
+}
+.newsletter .btn {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #fa9401;
+	text-transform: uppercase;
+	padding: 12px 30px;
+	color: #FFF;
+	margin: 0;
+}
+.newsletter .form-group {
+	margin: 0;
+}
+/***********************Newsletter Section CSS Ends Here*****************************/
+footer {
+	position: relative;
+	display: block;
+	background: #eeeeee;
+	padding-top: 70px;
+}
+footer p {
+	font-size: 14px;
+	line-height: 22px;
+	display: block;
+	padding: 15px 0;
+	overflow: hidden;
+}
+footer i {
+	float: left;
+	margin-top: 17px;
+	margin-right: 10px;
+	color: #fa9401;
+}
+footer h3 {
+	font-size: 18px;
+	font-weight: 800;
+	padding-bottom: 25px;
+}
+footer ul {
+	display: block;
+}
+footer ul li {
+	display: block;
+	padding: 7px 0;
+}
+footer ul li a {
+	color: #333;
+	font-size: 13px;
+}
+footer ul li a:hover, footer ul li a:active, footer ul li a:focus {
+	text-decoration: none;
+	color: #e31b1b;
+}
+footer .f-columns img.insta {
+	width: 100px;
+	margin: 5px;
+}
+footer center {
+	display: block;
+	position: relative;
+	padding: 25px;
+	color: #FFF;
+	font-size: 13px;
+	margin-top: 50px;
+	background: #e31b1b;
+}
+.navbar-light .navbar-toggler {
+	border: none;
+	background: #FFF;
+	border: 1px solid #333;
+	float: right;
+	border-radius: 0;
+}
+.top-row .col-xs-6 {
+	width: 50%;
+}
+.top-row .col-xs-6 {
+	width: 50%;
+}
+/***********************Footer Section CSS Ends Here*********************/
+.about-sec {
+	position: relative;
+	display: block;
+	padding-top: 30px;
+}
+.about-sec p {
+	font-size: 14px;
+	line-height: 21px;
+}
+.about-sec p span {
+	color: #e31b1b;
+}
+.our-partner {
+	postion: relative;
+	display: block;
+	background: #f5f5f5;
+	padding-bottom: 70px;
+	margin-top: 70px;
+}
+.our-partner a {
+	doisplay: block;
+	margin-top: 30px;
+	float: left;
+}
+.our-partner a img {
+	border: 2px solid #666;
+}
+.our-partner a img:hover {
+	border: 2px solid #e31b1b;
+}
+.our-team {
+	text-align: center;
+}
+.our-team img {
+	margin-top: 30px;
+}
+.our-team strong {
+	display: block;
+	padding: 7px 0;
+}
+.our-team p {
+	font-size: 14px;
+	color: #666;
+}
+.our-team a {
+	display: inline-block;
+	margin: 15px 5px;
+	border: 1px solid #fa9401;
+	color: #fa9401;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 13px;
+}
+.our-team a:hover, .our-team a:active, .our-team a:focus {
+	background: #fa9401;
+	color: #FFF;
+}
+/***********************About Us Page CSS Ends Here**************************/
+.contact-sec {
+	position: relative;
+	display: block;
+}
+.contact-sec .c-boxes {
+	position: relative;
+	display: block;
+	background: #f9f9f9;
+	padding: 40px 30px;
+	margin-top: 30px;
+	border: 1px solid #e31b1b;
+}
+.contact-sec .c-boxes i {
+	width: 80px;
+	height: 80px;
+	background: #e31b1b;
+	border-radius: 50%;
+	color: #FFF;
+	text-align: center;
+	line-height: 80px;
+	font-size: 25px;
+	float: left;
+	margin-right: 20px;
+}
+.contact-sec .c-boxes h3 {
+	font-size: 20px;
+	font-weight: 800;
+	padding: 5px 0;
+}
+.contact-sec .c-boxes p {
+	font-size: 14px;
+	color: #666;
+	line-height: 22px;
+}
+.contact-sec .c-boxes:hover {
+	background: #e31b1b;
+	color: #FFF;
+}
+.contact-sec .c-boxes:hover i {
+	background: #FFF;
+	color: #e31b1b;
+}
+.contact-sec .c-boxes:hover p {
+	color: #FFF;
+}
+.c-form label {
+	font-size: 15px;
+	display: block;
+	font-weight: 800;
+	padding-bottom: 10px;
+	margin-top: 30px;
+}
+.c-form input {
+	height: 50px;
+	border: 1px solid #EEE;
+	background: #EEE;
+	border-radius: 0;
+	padding: 20px;
+}
+.c-form textarea {
+	resize: none;
+	border: 1px solid #EEE;
+	background: #EEE;
+	border-radius: 0;
+	padding: 20px;
+}
+.c-form button {
+	background: #fa9401;
+	color: #FFF;
+	padding: 15px 30px;
+	border: none;
+	margin-top: 20px;
+	border-radius: 0;
+	text-transform: uppercase;
+}
+/********************Contact Us Page CSS Ends Here************************/
+.blog-sec {
+	position: relative;
+	display: block;
+}
+.posts {
+	position: relative;
+	display: block;
+	margin-top: 30px;
+	background: #f9f9f9;
+	border: 1px solid #f9f9f9;
+	padding: 15px;
+}
+.posts:hover {
+	border: 1px solid #fa9401;
+	background: #FFF;
+}
+.posts a.post-img img {
+	display: block;
+	margin-bottom: 15px;
+}
+.posts a {
+	color: #e31b1b;
+}
+.posts a.category {
+	font-size: 12px;
+	margin-right: 10px;
+}
+.posts small {
+	color: #888;
+	font-size: 12px;
+}
+.posts h2 {
+	font-size: 22px;
+	display: block;
+	padding: 10px 0;
+	font-weight: 800;
+}
+.posts h2 a:hover {
+	text-decoration: none;
+	color: #fa9401;
+}
+.posts p {
+	font-size: 14px;
+	line-height: 20px;
+	color: #666;
+}
+.posts button {
+	float: left;
+	background: #fa9401;
+	border-radius: 0;
+	color: #FFF;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 8px 20px;
+	margin-top: 20px;
+}
+.posts ul {
+	float: right;
+	margin-top: 25px;
+}
+.posts ul li {
+	display: inline-block;
+	padding: 10px 3px;
+}
+.pagination .page-link {
+	border-radius: 0 !important;
+	color: #e31b1b;
+}
+.pagination .page-item.active .page-link {
+	background: #fa9401;
+	border-color: #fa9401;
+}
+.sidebar {
+	position: relative;
+	display: block;
+}
+.sidebar h3 {
+	font-size: 18px;
+	font-weight: 800;
+	color: #333;
+	display: block;
+	padding: 25px 0;
+}
+.sidebar form {
+	position: relative;
+	display: block;
+}
+.sidebar form input {
+	border-radius: 0;
+	height: 50px;
+	background: #EEE;
+	border: 1px solid #EEE;
+	padding: 20px;
+}
+.sidebar form button {
+	background: #e31b1b;
+	color: #FFF;
+	margin: 0;
+	padding: 12px;
+	width: 50px;
+	height: 50px;
+	border-radius: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.sidebar .r-posts {
+	position: relative;
+	display: block;
+}
+.sidebar .r-posts li {
+	display: block;
+	padding-bottom: 15px;
+}
+.sidebar .r-posts li a {
+	display: block;
+	font-size: 16px;
+	font-weight: 800;
+	color: #666;
+}
+.sidebar .r-posts li a:hover {
+	text-decoration: none;
+	color: #e31b1b;
+}
+.sidebar hr {
+	margin: 30px 0 0 0;
+}
+.sidebar .r-comments li a {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+}
+.sidebar .r-comments li a b {
+	color: #e31b1b;
+}
+/*********************Blog Page CSS Ends Here****************************/
+.post-details {
+	position: relative;
+	display: block;
+	padding-top: 15px;
+}
+.post-details h2 {
+	font-size: 36px;
+	font-weight: 800;
+}
+.post-details a.category {
+	font-size: 12px;
+	display: inline-block;
+	padding: 15px 15px 15px 0;
+	color: #fa9401;
+}
+.post-details small {
+	font-size: 12px;
+	color: #999;
+}
+.post-details p {
+	font-size: 13px;
+	line-height: 22px;
+	display: block;
+	padding: 15px 0;
+}
+.post-details p a {
+	color: #e31b1b;
+}
+.post-details ul.tags, .post-details ul.share {
+	position: relative;
+	display: block;
+	margin: 10px 0;
+}
+.post-details ul.tags {
+	padding-right: 30px;
+}
+.post-details ul.tags li, .post-details ul.share li {
+	display: inline-block;
+	margin: 2px;
+}
+.post-details ul.tags li a {
+	display: block;
+	padding: 5px 7px;
+	font-size: 11px;
+	background: #333;
+	color: #FFF;
+}
+.post-details ul.tags li a:hover, .post-details ul.tags li a:active, .post-details ul.tags li a:focus {
+	text-decoration: none;
+	background: #e31b1b;
+}
+.post-details ul.share li a {
+	width: 25px;
+	height: 25px;
+	display: block;
+	border: 1px solid #999;
+	color: #999;
+	text-align: center;
+	font-size: 12px;
+	line-height: 25px;
+}
+.post-details ul.share li a:hover, .post-details ul.share li a:active, .post-details ul.share li a:focus {
+	border-color: #e31b1b;
+	color: #e31b1b;
+}
+ul.pagination.pg {
+	display: block;
+	width: 100%;
+}
+ul.pagination.pg li:nth-child(1) {
+	float: left;
+}
+ul.pagination.pg li:nth-child(2) {
+	float: right;
+}
+.comments {
+	position: relative;
+	display: block;
+	padding: 15px;
+	background: #f5f5f5;
+	margin: 15px 0;
+}
+.comments img {
+	float: left;
+	margin-right: 10px;
+}
+.comments span {
+	display: block;
+	overflow: hidden;
+	font-sizE: 13px;
+}
+.comments span b {
+	display: block;
+	padding: 5px 0;
+}
+.comments p {
+	display: block;
+	font-size: 12px;
+	line-height: 18px;
+	clear: both;
+	padding-top: 10px;
+}
+.comments-form input {
+	height: 50px;
+	border: 1px solid #EEE;
+	background: #EEE;
+	border-radius: 0;
+	margin-top: 30px;
+	padding: 15px;
+}
+.comments-form textarea {
+	height: 200px;
+	border: 1px solid #EEE;
+	background: #EEE;
+	border-radius: 0;
+	margin-top: 15px;
+	padding: 15px;
+	resize: none;
+	width: 100%;
+}
+.comments-form button {
+	background: #fa9401;
+	color: #FFF;
+	border-radius: 0;
+	padding: 10px 20px;
+	margin-top: 15px;
+}
+/**********************Blog Details Page CSS Ends Here************************/
+.login-form, .register-form {
+	position: relative;
+	display: block;
+	padding: 10px;
+}
+.login-form input.form-control, .register-form input.form-control {
+	height: 50px;
+	border-radius: 0;
+	border: 1px solid #EEE;
+	background: #EEE;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+.login-form label.form-check-label, .register-form label.form-check-label {
+	font-size: 13px;
+	line-height: 22px;
+}
+.login-form button, .register-form button {
+	background: #e31b1b;
+	color: #FFF;
+}
+.login-form strong, .register-form strong {
+	font-size: 12px;
+	padding-left: 10px;
+}
+.login-form a, .register-form a {
+	color: #fa9401;
+}
+.signup, .register-form {
+	display: none;
+}
+.modal-open{
+	padding:0 !important;
+	overflow: scroll !important;
+}
+.modal-open .modal{
+	overflow:hidden;
+}
+/**********************Sign In / Sign Up Page CSS Ends Here*******************************/
+.faqs-sec{
+	position:relative;
+	display: block;
+	padding-top: 15px;
+	font-size:14px;
+}
+.faqs-sec strong{
+	display:block;
+	padding: 15px 0;
+}
+.faqs-sec p{
+	display:block;
+	padding-bottom: 20px;
+	line-height: 20px;
+}
+
+
+/* ################################## added ###################################### */
+
+.mr-auto .current_page_item{
+	background: #e31b1b;
+	font-size: 100%;
+	background-size:auto; 
+	box-sizing: inherit;
+	font-size: 100%;
+}
