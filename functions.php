@@ -128,14 +128,15 @@ function dories_scripts() {
 	wp_enqueue_style( 'screens', get_template_directory_uri() . '/css/screen.css' );
 	wp_enqueue_style( 'core', get_template_directory_uri() . '/style.css' );
 
-	wp_enqueue_script( 'dories-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-	wp_enqueue_script( 'dories-navigation', get_template_directory_uri() . '/js/jquery.js', array(), '20151215', true );
-	wp_enqueue_script( 'dories-navigation', get_template_directory_uri() . '/js/popper.min.js', array(), '20151215', true );
-	wp_enqueue_script( 'dories-navigation', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '20151215', true );
-	wp_enqueue_script( 'dories-navigation', get_template_directory_uri() . '/js/jquery.easing.min.js', array(), '20151215', true );
-	wp_enqueue_script( 'dories-navigation', get_template_directory_uri() . '/js/scrolling-nav.js', array(), '20151215', true );
-	wp_enqueue_script( 'dories-navigation', get_template_directory_uri() . '/js/custom.js', array(), '20151215', true );
-	wp_enqueue_script( 'dories-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	
+	wp_enqueue_script( 'dories-jquery', get_template_directory_uri() . '/js/jquery.js', array() );
+	wp_enqueue_script( 'dories-popper', get_template_directory_uri() . '/js/popper.min.js', array() );
+	wp_enqueue_script( 'dories-bootstrap-min', get_template_directory_uri() . '/js/bootstrap.min.js', array() );
+	wp_enqueue_script( 'dories-jquery-easing', get_template_directory_uri() . '/js/jquery.easing.min.js', array() );
+	wp_enqueue_script( 'dories-scrolling', get_template_directory_uri() . '/js/scrolling-nav.js', array() );
+	wp_enqueue_script( 'dories-custom', get_template_directory_uri() . '/js/custom.js', array() );
+	wp_enqueue_script( 'dories-navigation', get_template_directory_uri() . '/js/navigation.js', array() );
+	wp_enqueue_script( 'dories-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array() );
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/vendor/bootstrap.bundle.min.js', array( 'jquery' ) );
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

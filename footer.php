@@ -118,36 +118,3 @@
 </div>
 <!--modal--> 
 
-<script src="<?php  get_template_directory_uri()?>/js/jquery.js"></script> 
-<script src="<?php  get_template_directory_uri()?>js/popper.min.js"></script> 
-<script src="<?php  get_template_directory_uri()?>js/bootstrap.min.js"></script> 
-<script src="<?php  get_template_directory_uri()?>js/jquery.easing.min.js"></script> 
-<script src="<?php  get_template_directory_uri()?>js/scrolling-nav.js"></script> 
-<script>
-$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-    if (scroll >= 205) {
-        $(".menu").addClass("menu-sticky");
-    }
-	else if (scroll <= 205) {
-        $(".menu").removeClass("menu-sticky");
-    }
-});	
-$('.navbar-light.menu form button').click(function(){
-	$('.navbar-light.menu form input').toggle();
-});
-$('.login-form a').click(function(){
-	$('.signin').hide();
-	$('.login-form').hide();
-	$('.register-form').show();
-	$('.signup').show();
-});
-$('.register-form a').click(function(){
-	$('.signin').show();
-	$('.login-form').show();
-	$('.register-form').hide();
-	$('.signup').hide();
-});
-</script>
-</body>
-</html>
