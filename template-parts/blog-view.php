@@ -51,12 +51,9 @@
         </ul>
         <ul class="share">
           <li><strong>Share:</strong></li>
-          <li><a href="javascript:void(0);"><i class="fab fa-facebook"></i></a></li>
-          <li><a href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="javascript:void(0);"><i class="fab fa-google-plus"></i></a></li>
-          <li><a href="javascript:void(0);"><i class="fab fa-instagram"></i></a></li>
-          <li><a href="javascript:void(0);"><i class="fab fa-youtube"></i></a></li>
-          <li><a href="javascript:void(0);"><i class="fab fa-twitch"></i></a></li>
+          <li><a href="https://www.facebook.com/sharer/sharer.php?u=<?php esc_url(the_permalink());?>"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/intent/tweet?url=<?php esc_url(the_permalink()); ?>"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://plus.google.com/share?url=<?php esc_url(the_permalink()); ?>"><i class="fab fa-google-plus"></i></a></li>
         </ul>
       <!--post-details--> <br />
       <br />

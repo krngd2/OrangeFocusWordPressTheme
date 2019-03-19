@@ -134,7 +134,7 @@ function dories_scripts() {
 	wp_enqueue_script( 'dories-bootstrap-min', get_template_directory_uri() . '/js/bootstrap.min.js', array() );
 	wp_enqueue_script( 'dories-jquery-easing', get_template_directory_uri() . '/js/jquery.easing.min.js', array() );
 	wp_enqueue_script( 'dories-scrolling', get_template_directory_uri() . '/js/scrolling-nav.js', array() );
-	wp_enqueue_script( 'dories-custom', get_template_directory_uri() . '/js/custom.js', array() );
+	wp_enqueue_script( 'dories-custom', get_template_directory_uri() . '/js/customizer.js', array() );
 	wp_enqueue_script( 'dories-navigation', get_template_directory_uri() . '/js/navigation.js', array() );
 	wp_enqueue_script( 'dories-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array() );
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/vendor/bootstrap.bundle.min.js', array( 'jquery' ) );

@@ -29,10 +29,10 @@
           <li>
             <p>Follow Us:</p>
           </li>
-          <li><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
-          <li><a href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="javascript:void(0);"><i class="fab fa-google-plus-g"></i></a></li>
-          <li><a href="javascript:void(0);"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://www.facebook.com/sharer/sharer.php?u=<?php esc_url( home_url( '/' ) ); ?>" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="https://twitter.com/intent/tweet?url=<?php esc_url( home_url( '/' ) ); ?>" target="_blank" ><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://plus.google.com/share?url=<?php esc_url( home_url( '/' ) ); ?>" target="_blank" ><i class="fab fa-google-plus-g"></i></a></li>
+          
         </ul>
       </div>
       <!--col-sm-6-->

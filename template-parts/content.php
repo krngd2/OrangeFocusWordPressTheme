@@ -58,9 +58,9 @@ else:
 					<a href="<?php the_permalink(); ?>"><button class="btn">Read More</button></a>
 					<ul>
 						<li><strong>Share:</strong></li>
-						<li><a  href="javascript:void(0);"><i class="fab fa-facebook"></i></a></li>
-						<li><a  href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
-						<li><a  href="javascript:void(0);"><i class="fab fa-google-plus"></i></a></li>
+						<li><a href="https://www.facebook.com/sharer/sharer.php?u=<?php  esc_url(the_permalink("")); ?>"><i class="fab fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/intent/tweet?url=<?php esc_url(the_permalink()); ?>"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="https://plus.google.com/share?url=<?php esc_url(the_permalink()); ?>"><i class="fab fa-google-plus"></i></a></li>
 					</ul>							
 					</div><!-- .entry-content -->						
 				</div><!-- .entry-meta -->

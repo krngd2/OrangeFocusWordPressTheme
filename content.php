@@ -60,13 +60,13 @@
 						
 						<div class="row ">
 							<strong>Share:</strong>
-							<a class=p-4 href="javascript:void(0);"><i class="fab fa-facebook"></i></a>
-							<a class=p-4 href="javascript:void(0);"><i class="fab fa-twitter"></i></a>
-							<a class=p-4 href="javascript:void(0);"><i class="fab fa-google-plus"></i></a>
+							<a class=p-4 href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>"><i class="fab fa-facebook"></i></a>
+							<a class=p-4 href="https://twitter.com/intent/tweet?url=<?php the_permalink(); ?>"><i class="fab fa-twitter"></i></a>
+							<a class=p-4 href="https://plus.google.com/share?url=<?php the_permalink(); ?>"><i class="fab fa-google-plus"></i></a>
 						</div> 
 					</div><!-- .entry-meta -->
 					<?php endif; ?>
-				</div><?php the_ID(); ?>
+				</div>
 				
 			</div></a>
 			<!-- .entry-header -->
