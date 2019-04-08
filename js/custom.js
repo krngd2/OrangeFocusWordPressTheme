@@ -4,6 +4,11 @@
         $(this).addClass("nav-item");
         $(this).find('a').addClass("nav-link");
     });
+    $('#secondary').addClass("sidebar");
+    
+    $('.search-submit').replaceWith('<button class="btn search-submit"></button>')
+    $('.search-submit').append('<i class="fas fa-search"></i>'); 
+
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
         if (scroll >= 205) {

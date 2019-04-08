@@ -107,11 +107,12 @@ add_action( 'after_setup_theme', 'dories_content_width', 0 );
 function dories_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar', 'dories' ),
-		'id'            => 'sidebar-1',
+		'id'            => 'sidebar-1', 
 		'description'   => esc_html__( 'Add widgets here.', 'dories' ),
-		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'class'         => 'sidebar',
+		'before_widget' => '<div id="%1$s" class="r-posts %2$s">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h6 class="widget-title">',
+		'before_title'  => '<h6 style="font-weight:bold;">',
 		'after_title'   => '</h6>',
 	) );
 	register_sidebar( array(
@@ -143,7 +144,7 @@ function dories_scripts() {
 	wp_enqueue_script( 'dories-bootstrap-min', get_template_directory_uri() . '/js/bootstrap.min.js', array() );
 	wp_enqueue_script( 'dories-jquery-easing', get_template_directory_uri() . '/js/jquery.easing.min.js', array() );
 	wp_enqueue_script( 'dories-scrolling', get_template_directory_uri() . '/js/scrolling-nav.js', array() );
-	wp_enqueue_script( 'dories-custom', get_template_directory_uri() . '/js/customizer.js', array() );
+	wp_enqueue_script( 'dories-custom', get_template_directory_uri() . '/js/custom.js', array() );
 	wp_enqueue_script( 'dories-navigation', get_template_directory_uri() . '/js/navigation.js', array() );
 	wp_enqueue_script( 'dories-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array() );
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/vendor/bootstrap.bundle.min.js', array( 'jquery' ) );
@@ -151,10 +152,7 @@ function dories_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-function remove_more_link_scroll( $link ) {
-	$link = preg_replace( '|#more-[0-9]+|', '', $link );
-	return $link;
-}
+
 add_filter( 'the_content_more_link', 'remove_more_link_scroll' );
 
 
@@ -188,14 +186,10 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 }
 
 #################################################################################
-add_filter("the_content", "break_text");
-function break_text($text){
-    $length = 100;
-    if(strlen($text)<$length+10) return $text;//don't cut if too short
+function remove_more_link_scroll( $link ) {
+	$link = preg_replace( '|#more-[0-9]+|', '', $link );
+	return $link;
+}
 
-    $break_pos = strpos($text, ' ', $length);//find next space after desired length
-    $visible = substr($text, 0, $break_pos);
-    return balanceTags($visible) . "...</p>";
-} 
-
+ 
 

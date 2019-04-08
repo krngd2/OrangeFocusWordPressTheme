@@ -21,7 +21,7 @@ else:
 		<div class="posts">
 			<a href="javascript:void(0);" class="post-img">
 				<?php dories_post_thumbnail(); ?></a>
-			<a href="javascript:void(0);" class="category"><i class="fas fa-folder"></i> Web Development</a> <small><i class="fas fa-calendar"></i>
+			<a href="jawvascript:void(0);" class="category"><i class="fas fa-folder"></i> Web Development</a> <small><i class="fas fa-calendar"></i>
 				03/25/2019</small>
 			<?php
 				the_title( '<h2 class="entry-title post-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
@@ -64,6 +64,8 @@ else:
 					</ul>							
 					</div><!-- .entry-content -->						
 				</div><!-- .entry-meta -->
+			 
+					
 			<?php endif; ?>
 		</div>
 		

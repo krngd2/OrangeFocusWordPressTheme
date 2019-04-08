@@ -198,32 +198,6 @@ get_header();
 
 <!----------------------------Client Testimonials Section Code Ends Here-------------------------->
 
-<section class="newsletter">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <h3>Keep up to date — get updates with latest topics.</h3>
-      </div>
-      <!--col-sm-6-->
-      <div class="col-sm-6">
-        <form>
-          <div class="form-group">
-            <input type="email" class="form-control no-radius" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email address" />
-          </div>
-          <!--form-group-->
-          <button name="btn" class="btn no-radius">Send</button>
-        </form>
-      </div>
-      <!--col-sm-6-->
-      <div class="clearfix"></div>
-      <!--clearfix--> 
-    </div>
-    <!--row--> 
-  </div>
-  <!--container--> 
-</section>
-<!--newsletter--> 
-
 
 <?php
 // get_sidebar();

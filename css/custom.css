@@ -1074,3 +1074,6 @@ ul.pagination.pg li:nth-child(2) {
 	box-sizing: inherit;
 	font-size: 100%;
 }
+#secondary.widget-area{
+	margin-top: 30px;
+}
